@@ -18,7 +18,7 @@ extern "C" {
 #include <linux/sched.h>
 
 #include "mach/mt_ppm_api.h"
-#include "mt_ppm_platform.h"
+#include "../src/mach/mt6755/mt_ppm_platform.h"
 
 /*==============================================================*/
 /* Definitions							*/
