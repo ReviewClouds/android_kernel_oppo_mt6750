@@ -1,3 +1,10 @@
+# Hints
+For users of F1S and F1 Plus, if you encounter problems such as no signal or sensor failure.
+Please adjust some arguments about modem and sensors at defconfig. \
+The defconfigs of F1S(15331) and F1Plus(15311) were actually missing, but we can use configs of their China Edition.
+
+
+
 # Version
 This branch is for "kernel-3.10".
 
@@ -8,7 +15,7 @@ This branch is for "kernel-3.10".
 | oppo6750_15127 | A37M/T/TM |
 | oppo6750_15131 | A59M/S F1S |
 | oppo6750_16021 | A39 |
-| oppo6755_15111 | R9M/TM/KM |
+| oppo6755_15111 | R9M/TM/KM F1Plus|
 
 
 # Build (example)
